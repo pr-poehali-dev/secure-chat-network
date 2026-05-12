@@ -264,6 +264,27 @@
   color: var(--nex-blue);
 }
 
+/* Auth input */
+.auth-input {
+  width: 100%;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--nex-border);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.auth-input:focus {
+  border-color: var(--nex-blue);
+  background: rgba(59, 130, 246, 0.06);
+}
+
 /* Message bubble */
 .msg-out {
   background: linear-gradient(135deg, #3b82f6, #6366f1);
